@@ -46,7 +46,7 @@ export default {
             { key: '6', label: '極度劇痛 5' },
         ],
         column: [
-            { id: 1, title: '肩膀'},
+            { id: 1, title: '頸'},
             { id: 2, title: '左肩'},
             { id: 3, title: '右肩'},
             { id: 4, title: '左手肘/左前臂'},
