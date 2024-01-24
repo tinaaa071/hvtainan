@@ -10,15 +10,15 @@
             :id="item.id" 
             >
             <template #other>
-              <div class="flex mt-2 space-x-4">
-                <CheckButton v-for="(label, labelIndex) in checkbox[index]" :key="labelIndex" :label="label" />
+              <div class="grid grid-cols-3 gap-4 mt-2 md:grid-cols-4 lg:grid-cols-6">
+                <CheckButton v-for="(label, labelIndex) in checkbox[index]" :key="labelIndex" :label="label" class="flex flex-wrap " />
               </div>
             </template>
           </Question>
         </div>
 
         <!-- 說明 -->
-        <div class="flex items-start p-4 bg-gray-100 md:px-8 rounded-xl">
+        <div class="flex flex-col items-start p-4 bg-gray-100 lg:flex-row md:px-8 rounded-xl">
           <h3 class="mb-2 mr-4 md:text-lg">填寫說明</h3>
           <div class="flex flex-col">
             <p 

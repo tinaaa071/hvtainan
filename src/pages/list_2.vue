@@ -32,16 +32,19 @@
                 <li>
                     曾經從事的(前一份工作)<Input />
                     <div class="grid items-center mt-2 md:grid-cols-2 gap-x-6 gap-y-2 whitespace-nowrap">
-                        <div>起始日期：<Date /></div>
-                        <div>截止日期：<Date /></div>
+                        <div>起始日期：<Date class="mt-2" /></div>
+                        <div>截止日期：<Date class="mt-2" /></div>
                     </div>
                 </li>
                 <li>
                     目前從事<Input />
                     <div class="grid items-center mt-2 md:grid-cols-2 gap-x-6 gap-y-2 whitespace-nowrap">
-                        <div>起始日期：<Date /></div>
-                        <div>截止日期：<Date /></div>
-                        <Input label="是否需輪班" :showCheckButton="true" :showInput="false" :buttonLabels="['兩班制', '三班制', '四班制', '其他', '否']" />
+                        <div>起始日期：<Date class="mt-2" /></div>
+                        <div>截止日期：<Date class="mt-2" /></div>
+                        <div class="flex flex-wrap gap-4">
+                            <Input label="是否需輪班" :showCheckButton="true" :showInput="false" :buttonLabels="['兩班制', '三班制', '四班制','否']" />
+                            <CheckButton label="其他" :showInput="true" />
+                        </div>
                     </div>
                     
                 </li>
