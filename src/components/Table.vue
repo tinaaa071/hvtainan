@@ -7,7 +7,7 @@
                   <th 
                   v-for="item in table" 
                   :key="item.key"
-                  class="px-5 py-3 text-sm font-medium tracking-wider text-center text-gray-900 whitespace-nowrap"
+                  class="px-5 py-3 font-medium tracking-wider text-center text-gray-900 whitespace-nowrap"
                   >
                       {{ item.label }}
                   </th>
@@ -38,12 +38,12 @@ export default {
         // 欄位
         table: [
             { key: '0', label: '' },
-            { key: '1', label: '不痛' },
-            { key: '2', label: '微痛' },
-            { key: '3', label: '中等疼痛' },
-            { key: '4', label: '劇痛' },
-            { key: '5', label: '非常劇痛' },
-            { key: '6', label: '極度劇痛' },
+            { key: '1', label: '不痛 0' },
+            { key: '2', label: '微痛 1' },
+            { key: '3', label: '中等疼痛 2' },
+            { key: '4', label: '劇痛 3' },
+            { key: '5', label: '非常劇痛 4' },
+            { key: '6', label: '極度劇痛 5' },
         ],
         column: [
             { id: 1, title: '肩膀'},

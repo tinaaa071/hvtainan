@@ -13,7 +13,7 @@
               <div class="text-blue-500 bg-blue-200">
                 <div class="flex justify-between px-6 py-4">
                   <p>
-                    富盈診所資料保護政策及顧客之個人資料保護權益
+                    《富盈診所資料保護政策及顧客之個人資料保護權益》
                   </p>
                 <button type="button" class=" hover:text-gray-500" @click="closeModal">
                   <span class="sr-only">Close</span>
